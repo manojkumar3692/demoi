@@ -1,17 +1,17 @@
 branch-defaults:
-  default:
-    environment: django-envb
+  master:
+    environment: manoj-manja
     group_suffix: null
 environment-defaults:
-  django-env:
+  django-tutorial:
     branch: null
     repository: null
 global:
-  application_name: django-tutoriala
+  application_name: ebdjango
   branch: null
-  default_ec2_keyname: aws-eb
+  default_ec2_keyname: Libratech_GIT
   default_platform: Python 3.6
-  default_region: us-west-2
+  default_region: us-east-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
